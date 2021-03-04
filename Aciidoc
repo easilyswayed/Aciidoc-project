@@ -1,0 +1,117 @@
+=  An Asciidoc guide
+Viivi Mustonen <viivi.mk.mustonen@gmail.com>
+v1.0, 2021-03-20
+
+In this guide I will tell you about the Asciidoc markup technique. 
+
+== Paragraphs
+
+Paragraphs don't have special markup,they are defined by one or more consecutive lines. 
+
+There should be at least one blank line when a new paragraphh begins.
+
+This is a normal paragraph that follows source format rules.
+
+===  Text styles
+These are text styles, used to define word meanings.
+
+* normal text, _italicized_, *bolded*, +monotext+.
+* ``double quotes'', `single quote'.
+* normal, ^super text^, ~sub text~.
+* `passthrough *bolded*`
+
+====Tables and lists
+
+.This is an example table
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+
+This is a list
+
+.List title
+* list subject 1
+** nested list item
+*** double nested list item 1
+*** double nested list item 2
+* list subject 2
+
+Tables
+
+.This is an example table
+|===
+|Column heading 1 |Column heading 2
+
+|Column 1, row 1
+|Column 2, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|===
+
+Lists
+
+Lists in aciidoc are unordered or ordered.
+
+Unordered list
+
+* Level 1 list item
+** Level 2 list item
+*** Level 3 list item
+**** Level 4 list item
+***** Level 5 list item
+* Level 1 list item
+
+Ordered list
+
+. Level 1 list item
+.. Level 2 list item
+... Level 3 list item
+.... Level 4 list item
+..... Level 5 list item
+. Level 1 list item
+
+Checklist
+
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* normal list item
+
+===== Comments and block titles
+Comments
+
+// This is a single-line comment
+
+////
+This is a multi-line comment.
+
+Block title
+
+.This is an example block title
+====
+This is content in a block title. Normal style rules apply
+====
+
+======Links
+
+This is how links are displayed
+
+mailto:viivi.mk.mustonen@gmail.com[Ask me more!]
+
+image:https://image.shutterstock.com/image-vector/isometric-vector-illustration-young-programmer-600w-1060094186.jpg[alt="
+
+This is an embedded picture from an online source.",width=128,height=128]
+
+This an embedded Youtube video
+
+video::GlhHMjQvJrc[youtube]
+
+Sources:
+https://docs.asciidoctor.org/home/[Asciidoctor]
+https://github.com/asciidoctor/asciidoctor-documentation-planning/blob/master/templates/user-manual-template.adoc[Github]
+https://asciidoctor.org/docs/asciidoc-article/[Asiidoc Article Template]
