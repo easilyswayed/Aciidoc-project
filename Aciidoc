@@ -30,9 +30,8 @@ These are text styles, used to define word meanings.
 |2    |Item 2     |b
 |3    |Item 3     |c
 |6    |Three items|d
-====
 
-This is a list
+====This is a list
 
 .List title
 * list subject 1
