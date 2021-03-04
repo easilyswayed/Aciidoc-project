@@ -1,4 +1,4 @@
-=  An Asciidoc guide
+=  An Asiidoc guide
 Viivi Mustonen <viivi.mk.mustonen@gmail.com>
 v1.0, 2021-03-20
 
@@ -30,6 +30,7 @@ These are text styles, used to define word meanings.
 |2    |Item 2     |b
 |3    |Item 3     |c
 |6    |Three items|d
+====
 
 This is a list
 
