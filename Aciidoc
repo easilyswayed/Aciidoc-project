@@ -20,7 +20,7 @@ These are text styles, used to define word meanings.
 * normal, ^super text^, ~sub text~.
 * `passthrough *bolded*`
 
-Lists
+===  Lists
 
 Lists in aciidoc are unordered or ordered.
 
@@ -61,6 +61,6 @@ This an embedded Youtube video
 video::GlhHMjQvJrc[youtube]
 
 Sources:
-https://docs.asciidoctor.org/home/[Asciidoctor]
-https://github.com/asciidoctor/asciidoctor-documentation-planning/blob/master/templates/user-manual-template.adoc[Github]
-https://asciidoctor.org/docs/asciidoc-article/[Asiidoc Article Template]
+* https://docs.asciidoctor.org/home/[Asciidoctor]
+* https://github.com/asciidoctor/asciidoctor-documentation-planning/blob/master/templates/user-manual-template.adoc[Github]
+* https://asciidoctor.org/docs/asciidoc-article/[Asiidoc Article Template]
