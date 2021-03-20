@@ -48,10 +48,16 @@ Checklist
 * [x] also checked
 * [ ] not checked
 
-fig = go.Figure(data=[go.Table(header=dict(values=['A Scores', 'B Scores']),
-                 cells=dict(values=[[100, 90, 80, 90], [95, 85, 75, 95]]))
-                     ])
-fig.show()
+.An example table
+[width="50%",cols=">s,^m,e",frame="topbot",options="header,footer"]
+|==========================
+|      2+|Columns 2 and 3
+|1       |Item 1  |Item 1
+|2       |Item 2  |Item 2
+|3       |Item 3  |Item 3
+|4       |Item 4  |Item 4
+|footer 1|footer 2|footer 3
+|==========================
 
 ===  Links
 
