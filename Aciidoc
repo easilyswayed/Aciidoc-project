@@ -84,7 +84,9 @@ This is how links are displayed
 
 mailto:viivi.mk.mustonen@gmail.com[Ask me more!]
 
-image: https://image.shutterstock.com/image-vector/isometric-vector-illustration-young-programmer-600w-1060094186.jpg[alt="This is an embedded picture from an online source.",width=128,height=128]
+=== Images
+
+image::https://media.istockphoto.com/photos/cat-hands-typing-at-office-picture-id1189416687[Programming cat]
 
 This an embedded Youtube video
 
