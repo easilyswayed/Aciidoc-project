@@ -20,7 +20,7 @@ These are text styles, used to define word meanings.
 * normal, ^super text^, ~sub text~.
 * `passthrough *bolded*`
 
-====Tables and lists
+Tables and lists
 
 .This is an example table
 [options="header,footer"]
@@ -32,7 +32,7 @@ These are text styles, used to define word meanings.
 |6    |Three items|d
 |===
 
-====This is a list
+This is a list
 
 .List title
 * list subject 1
