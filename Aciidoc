@@ -47,19 +47,6 @@ Checklist
 * [*] checked
 * [x] also checked
 * [ ] not checked
-* normal list item
-
-// This is a single-line comment
-
-////
-This is a multi-line comment.
-
-Block title
-
-.This is an example block title
-====
-This is content in a block title. Normal style rules apply
-====
 
 ======Links
 
@@ -74,6 +61,18 @@ This is an embedded picture from an online source.",width=128,height=128]
 This an embedded Youtube video
 
 video::GlhHMjQvJrc[youtube]
+
+// This is a single-line comment
+
+////
+This is a multi-line comment.
+
+Block title
+
+.This is an example block title
+====
+This is content in a block title. Normal style rules apply
+====
 
 Sources:
 https://docs.asciidoctor.org/home/[Asciidoctor]
