@@ -6,13 +6,15 @@ In this guide I will tell you about the Asciidoc markup technique.
 
 === Paragraphs
 
-Paragraphs don't have special markup,they are defined by one or more consecutive lines. 
+In Asciidoc, paragraphs of text don't have special markup. Lines of text is a considered a paragraph when they are one or more consecutive lines of text. 
 
-There should be at least one blank line when a new paragraph begins.
+For clarity there should be at least one blank line when a new paragraph begins.
 
-This is a normal paragraph that follows source format rules.
+This is a normal paragraph that follows source format rules. You can see that the line above is separated by a small space as separate paragraphs.
 
 === Multiple indentions in paragraph
+
+This is how a block of text with a separate intended source information shows up in Asciidoc.
 
 [verse, Oscar Wilde, from The Ballad of Reading Gaol]
 He walked amongst the Trial Men
@@ -22,35 +24,31 @@ And his step seemed light and gay;
 But I never saw a man who looked
 So wistfully at the day
 
+By identifying it as a verse, we have the intended format with name of the author and name of the poem.
+
 ===  Text styles
-These are text styles, used to define word meanings.
+These are different text styles used in Asciidoc. They are used to give words meaning and emphasis.
 
 * normal text, _italicized_, *bolded*, +monotext+.
 * ``double quotes'', `single quote'.
-* normal, ^super text^, ~sub text~.
-* `passthrough *bolded*`
-
-Quotes
-
-‘Text with a single quote’
-Text with one `single grave accent at the left and one acute accent to the right' show in single quotation marks
-“Text with a double quote”
-Text with ``two grave accents to the left and two acute accents to the right'' show in double quation marks
+* `passthrough
 
 ===  Lists
 
 Lists in aciidoc are unordered or ordered.
 
-Unordered list
+This is an unordered list
 
-* Level 1 list item
-** Level 2 list item
-*** Level 3 list item
-**** Level 4 list item
-***** Level 5 list item
-* Level 1 list item
+* Level 1 item
+** Level 2 item
+*** Level 3 item
+**** Level 4 item
+***** Level 5 item
+* Level 1 item
 
-Ordered list
+As you can see, same level items do not need to be consecutive.
+
+This is an ordered list. The definitions of list items give more information than in an unordered list.
 
 . Level 1 list item
 .. Level 2 list item
@@ -86,13 +84,15 @@ mailto:viivi.mk.mustonen@gmail.com[Ask me more!]
 
 === Images
 
+Below is an image from an online source, embedded to this site
+
 image::https://media.istockphoto.com/photos/cat-hands-typing-at-office-picture-id1189416687[Programming cat]
 
-This an embedded Youtube video
+Below is a video embedded to this site
 
 video::GlhHMjQvJrc[youtube]
 
 Sources:
-* https://docs.asciidoctor.org/home/[Asciidoctor]
-* https://github.com/asciidoctor/asciidoctor-documentation-planning/blob/master/templates/user-manual-template.adoc[Github]
-* https://asciidoctor.org/docs/asciidoc-article/[Asiidoc Article Template]
+*https://docs.asciidoctor.org/home/[Asciidoctor]
+*https://github.com/asciidoctor/asciidoctor-documentation-planning/blob/master/templates/user-manual-template.adoc[Github]
+*https://asciidoctor.org/docs/asciidoc-article/[Asiidoc Article Template]
