@@ -48,31 +48,17 @@ Checklist
 * [x] also checked
 * [ ] not checked
 
-======Links
+===  Links
 
 This is how links are displayed
 
 mailto:viivi.mk.mustonen@gmail.com[Ask me more!]
 
-image:https://image.shutterstock.com/image-vector/isometric-vector-illustration-young-programmer-600w-1060094186.jpg[alt="
-
-This is an embedded picture from an online source.",width=128,height=128]
+image: https://image.shutterstock.com/image-vector/isometric-vector-illustration-young-programmer-600w-1060094186.jpg[alt="This is an embedded picture from an online source.",width=128,height=128]
 
 This an embedded Youtube video
 
 video::GlhHMjQvJrc[youtube]
-
-// This is a single-line comment
-
-////
-This is a multi-line comment.
-
-Block title
-
-.This is an example block title
-====
-This is content in a block title. Normal style rules apply
-====
 
 Sources:
 https://docs.asciidoctor.org/home/[Asciidoctor]
