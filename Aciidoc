@@ -32,16 +32,6 @@ Tables and lists
 |6    |Three items|d
 |===
 
-This is a list
-
-.List title
-* list subject 1
-** nested list item
-*** double nested list item 1
-*** double nested list item 2
-* list subject 2
-|===
-
 Tables
 
 .This is an example table
