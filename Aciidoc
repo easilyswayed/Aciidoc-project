@@ -30,6 +30,7 @@ These are text styles, used to define word meanings.
 |2    |Item 2     |b
 |3    |Item 3     |c
 |6    |Three items|d
+|===
 
 ====This is a list
 
@@ -39,6 +40,7 @@ These are text styles, used to define word meanings.
 *** double nested list item 1
 *** double nested list item 2
 * list subject 2
+|===
 
 Tables
 
