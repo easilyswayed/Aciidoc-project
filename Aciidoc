@@ -4,13 +4,23 @@ v1.0, 2021-03-20
 
 In this guide I will tell you about the Asciidoc markup technique. 
 
-== Paragraphs
+=== Paragraphs
 
 Paragraphs don't have special markup,they are defined by one or more consecutive lines. 
 
-There should be at least one blank line when a new paragraphh begins.
+There should be at least one blank line when a new paragraph begins.
 
 This is a normal paragraph that follows source format rules.
+
+=== Multiple indentions in paragraph
+
+[verse, Oscar Wilde, from The Ballad of Reading Gaol]
+He walked amongst the Trial Men
+In a suit of shabby grey;
+A cricket cap was on his head,
+And his step seemed light and gay;
+But I never saw a man who looked
+So wistfully at the day
 
 ===  Text styles
 These are text styles, used to define word meanings.
@@ -19,6 +29,13 @@ These are text styles, used to define word meanings.
 * ``double quotes'', `single quote'.
 * normal, ^super text^, ~sub text~.
 * `passthrough *bolded*`
+
+Quotes
+
+‘Text with a single quote’
+Text with one `single grave accent at the left and one acute accent to the right' show in single quotation marks
+“Text with a double quote”
+Text with ``two grave accents to the left and two acute accents to the right'' show in double quation marks
 
 ===  Lists
 
@@ -48,14 +65,16 @@ Checklist
 * [x] also checked
 * [ ] not checked
 
-.An example table
+===  Tables
+
+This is an example table
 [width="50%",cols=">s,^m,e",frame="topbot",options="header,footer"]
 |==========================
 |      2+|Columns 2 and 3
-|1       |Item 1  |Item 1
-|2       |Item 2  |Item 2
-|3       |Item 3  |Item 3
-|4       |Item 4  |Item 4
+|1       |Item 1a  |Item 1b
+|2       |Item 2a  |Item 2b
+|3       |Item 3a  |Item 3b
+|4       |Item 4a  |Item 4b
 |footer 1|footer 2|footer 3
 |==========================
 
