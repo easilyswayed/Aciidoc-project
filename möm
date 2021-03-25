@@ -1,0 +1,97 @@
+=  An Asiidoc guide
+Viivi Mustonen <viivi.mk.mustonen@gmail.com>
+v1.0, 2021-03-20
+
+In this guide I will tell you about the Asciidoc markup technique. 
+
+=== Paragraphs
+
+In Asciidoc, paragraphs of text don't have special markup. Lines of text is a considered a paragraph when they are one or more consecutive lines of text. 
+
+For clarity there should be at least one blank line when a new paragraph begins.
+
+This is a normal paragraph that follows source format rules. You can see that the line above is separated by a small space as separate paragraphs.
+
+=== Multiple indentions in paragraph
+
+This is how a block of text with a separate intended source information shows up in Asciidoc.
+
+[verse, Oscar Wilde, from The Ballad of Reading Gaol]
+He walked amongst the Trial Men
+In a suit of shabby grey;
+A cricket cap was on his head,
+And his step seemed light and gay;
+But I never saw a man who looked
+So wistfully at the day
+
+By identifying it as a verse, we have the intended format with name of the author and name of the poem.
+
+===  Text styles
+These are different text styles used in Asciidoc. They are used to give words meaning and emphasis.
+
+* normal text, _italicized_, *bolded*, +monotext+.
+* ``double quotes'', `single quote'.
+
+===  Lists
+
+Lists in Asciidoc are unordered or ordered.
+
+This is an unordered list
+
+* Level 1 item
+** Level 2 item
+*** Level 3 item
+**** Level 4 item
+***** Level 5 item
+* Level 1 item
+
+As you can see, same level items do not need to be consecutive.
+
+This is an ordered list. The definitions of list items give more information than in an unordered list.
+
+. Level 1 list item
+.. Level 2 list item
+... Level 3 list item
+.... Level 4 list item
+..... Level 5 list item
+. Level 1 list item
+
+Checklist
+
+* [*] checked
+* [x] also checked
+* [ ] not checked
+
+===  Tables
+
+This is an example table
+[width="50%",cols=">s,^m,e",frame="topbot",options="header,footer"]
+|==========================
+|      2+|Columns 2 and 3
+|1       |Item 1a  |Item 1b
+|2       |Item 2a  |Item 2b
+|3       |Item 3a  |Item 3b
+|4       |Item 4a  |Item 4b
+|footer 1|footer 2|footer 3
+|==========================
+
+===  Links
+
+This is how links are displayed
+
+mailto:viivi.mk.mustonen@gmail.com[Ask me more!]
+
+=== Images
+
+Below is an image from an online source, embedded to this site
+
+image::https://media.istockphoto.com/photos/cat-hands-typing-at-office-picture-id1189416687[Programming cat]
+
+Below is a video embedded to this site
+
+video::GlhHMjQvJrc[youtube]
+
+=== Sources
+* https://docs.asciidoctor.org/home/[Asciidoctor]
+* https://github.com/asciidoctor/asciidoctor-documentation-planning/blob/master/templates/user-manual-template.adoc[Github]
+* https://asciidoctor.org/docs/asciidoc-article/[Asiidoc Article Template]
